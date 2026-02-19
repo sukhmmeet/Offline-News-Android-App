@@ -59,14 +59,6 @@ API → Repository → Room Database → Paging 3 → UI (Compose)
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots here_
-
-
-
-
----
 
 ## 🧠 What I Learned
 
