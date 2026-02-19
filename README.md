@@ -69,26 +69,24 @@ API → Repository → Room Database → Paging 3 → UI (Compose)
 - Structuring scalable Android projects
 
 ---
-
 ## 📂 Project Structure
 
-
-
-com.yourpackage
+```
+com.dhaliwal.offlinenewsapp
 │
 ├── data
-│ ├── api
-│ ├── db
-│ └── repository
+│   ├── api
+│   ├── db
+│   └── repository
 │
 ├── ui
-│ ├── components
-│ └── screens
+│   ├── components
+│   └── screens
 │
 ├── viewmodel
 │
 └── MainActivity.kt
-
+```
 
 ---
 
