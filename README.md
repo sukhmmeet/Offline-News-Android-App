@@ -1,6 +1,6 @@
 # 📰 Offline News App
 
-A modern Android News Application built using **Kotlin** and **Jetpack Compose**, following **MVVM architecture** with an **offline-first approach** using Room Database and smooth infinite scrolling using Paging 3.
+A modern Android News Application built with Kotlin and Jetpack Compose, following MVVM architecture with an offline-first approach using Room Database and Paging 3 for efficient, scalable data loading.
 
 ---
 
@@ -9,7 +9,7 @@ A modern Android News Application built using **Kotlin** and **Jetpack Compose**
 - 📡 Fetches latest news from REST API
 - 💾 Offline-first architecture (Room Database caching)
 - 🔄 Pull-to-refresh support
-- ⚡ Infinite scrolling using Paging 3
+- ⚡ Paging 3 integration with Room for efficient data loading
 - 🖼 Image loading with Coil
 - 🎨 Fully built with Jetpack Compose
 - 🏗 Clean MVVM architecture
@@ -90,15 +90,6 @@ com.dhaliwal.offlinenewsapp
 
 ---
 
-## 🎯 Future Improvements
-
-- Add search functionality
-- Add category filtering
-- Add bookmarks feature
-- Implement RemoteMediator for full API paging
-- Add unit & UI tests
-
----
 
 ## 👨‍💻 Author
 
