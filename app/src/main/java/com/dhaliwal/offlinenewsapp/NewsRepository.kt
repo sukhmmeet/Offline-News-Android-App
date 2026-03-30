@@ -12,11 +12,6 @@ class NewsRepository(
     private val api: API_Instance,
     private val dao: ArticlesDao
 ) {
-
-    fun getNews(): Flow<List<Article>> {
-        return dao.getAllData()
-    }
-
     fun getPagedNews(): Flow<PagingData<Article>> {
         return Pager(
             config = PagingConfig(

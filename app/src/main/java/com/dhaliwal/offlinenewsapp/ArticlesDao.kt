@@ -13,7 +13,7 @@ interface ArticlesDao {
     fun getAllData() : Flow<List<Article>>
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertAll(data: List<Article>)
-    @Query("SELECT * FROM articles ORDER BY publishedAt DESC")
+    @Query("SELECT * FROM articles ORDER BY publishedAt ASC")
     fun getArticlesPaging(): PagingSource<Int, Article>
 
 
